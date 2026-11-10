@@ -282,7 +282,7 @@ function handleJoinClick() {
   isClicked = true;
   if (typeof fbq === 'function') {
     try {
-      fbq('track', 'subscribe');
+      fbq('track', 'Subscribe');
       fbq('trackCustom', 'JoinLinkClick');
     } catch (e) { console.log('Pixel error:', e); }
   }
